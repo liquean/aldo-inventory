@@ -1,29 +1,23 @@
-# aldo-inventory
+# Slack notifier for inventory in real time
 
-## Project setup
-```
-yarn install
-```
+## Synopsis
+This web application is used to list the inventory entries given for this test. The web application let the user filter by store and model.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+# Getting Up and Running
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Clone the repository
+- Create a folder called potloc
+- Clone the repo inside potloc's folder 
+- Inside potloc copy the shoe-store project
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## Yarn
+- On a terminal get to the aldo-inventory folder and run `yarn`
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Start the app
+- First go to the shoe-store project and start the inventory socket using `websocketd --port=8080 ruby inventory.rb`
+- On another terminal tab go to the aldo-inventory folder and run `yarn serve`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## That's it
+
+## Test
+To run existing tests run `yarn test`
