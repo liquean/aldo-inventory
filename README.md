@@ -1,4 +1,4 @@
-# Slack notifier for inventory in real time
+# Vue inventory in real time
 
 ## Synopsis
 This web application is used to list the inventory entries given for this test. The web application let the user filter by store and model.
